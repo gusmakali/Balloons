@@ -1,0 +1,13 @@
+query ListBalloons {
+  balloons {
+    edges {
+      node {
+        name
+        imageUrl
+        description
+        color
+        price
+      }
+    }
+  }
+}
