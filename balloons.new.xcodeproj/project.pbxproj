@@ -17,6 +17,9 @@
 		2A1DB53A27FB2505004878FF /* BalloonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DB53927FB2505004878FF /* BalloonRowView.swift */; };
 		2A1DB53C27FDAC18004878FF /* MyBalloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DB53B27FDAC18004878FF /* MyBalloons.swift */; };
 		2A1DB53E27FDCB6D004878FF /* HorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DB53D27FDCB6D004878FF /* HorizontalView.swift */; };
+		2A1DB5402804545D004878FF /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DB53F2804545D004878FF /* PageView.swift */; };
+		2A1DB542280458BE004878FF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DB541280458BE004878FF /* PageViewController.swift */; };
+		2A1DB544280458FD004878FF /* PageContol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DB543280458FD004878FF /* PageContol.swift */; };
 		2AB5710127FB08F6005F239F /* balloons_newApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB5710027FB08F6005F239F /* balloons_newApp.swift */; };
 		2AB5710327FB08F6005F239F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB5710227FB08F6005F239F /* ContentView.swift */; };
 		2AB5710527FB08F6005F239F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB5710427FB08F6005F239F /* Assets.xcassets */; };
@@ -59,6 +62,9 @@
 		2A1DB53927FB2505004878FF /* BalloonRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonRowView.swift; sourceTree = "<group>"; };
 		2A1DB53B27FDAC18004878FF /* MyBalloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBalloons.swift; sourceTree = "<group>"; };
 		2A1DB53D27FDCB6D004878FF /* HorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalView.swift; sourceTree = "<group>"; };
+		2A1DB53F2804545D004878FF /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		2A1DB541280458BE004878FF /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		2A1DB543280458FD004878FF /* PageContol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContol.swift; sourceTree = "<group>"; };
 		2AB570FD27FB08F6005F239F /* balloons.new.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = balloons.new.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB5710027FB08F6005F239F /* balloons_newApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balloons_newApp.swift; sourceTree = "<group>"; };
 		2AB5710227FB08F6005F239F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,8 +119,11 @@
 				2A1DB52E27FB18DE004878FF /* BalloonList.swift */,
 				2A1DB53227FB1BA5004878FF /* BalloonDetail.swift */,
 				2A1DB53D27FDCB6D004878FF /* HorizontalView.swift */,
+				2A1DB53F2804545D004878FF /* PageView.swift */,
 				2A1DB53927FB2505004878FF /* BalloonRowView.swift */,
 				2A1DB53B27FDAC18004878FF /* MyBalloons.swift */,
+				2A1DB541280458BE004878FF /* PageViewController.swift */,
+				2A1DB543280458FD004878FF /* PageContol.swift */,
 			);
 			path = Balloon;
 			sourceTree = "<group>";
@@ -472,14 +481,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A1DB53627FB1C84004878FF /* WebImage.swift in Sources */,
+				2A1DB5402804545D004878FF /* PageView.swift in Sources */,
 				2AB5710327FB08F6005F239F /* ContentView.swift in Sources */,
 				2A1DB53A27FB2505004878FF /* BalloonRowView.swift in Sources */,
 				2A1DB53E27FDCB6D004878FF /* HorizontalView.swift in Sources */,
+				2A1DB544280458FD004878FF /* PageContol.swift in Sources */,
 				2A1DB52A27FB12A0004878FF /* API.swift in Sources */,
 				2A1DB53327FB1BA5004878FF /* BalloonDetail.swift in Sources */,
 				2A1DB53C27FDAC18004878FF /* MyBalloons.swift in Sources */,
 				2A1DB52F27FB18DE004878FF /* BalloonList.swift in Sources */,
 				2A1DB52C27FB1358004878FF /* Network.swift in Sources */,
+				2A1DB542280458BE004878FF /* PageViewController.swift in Sources */,
 				2AB5710127FB08F6005F239F /* balloons_newApp.swift in Sources */,
 				2A1DB53827FB2036004878FF /* data.swift in Sources */,
 			);

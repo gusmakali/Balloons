@@ -17,20 +17,20 @@ struct BalloonListView: View {
     }
     
     var body: some View {
-//       
-            List(balloonData, id: \.name) { balloon in
-                NavigationLink(destination: HorizontalScroll()) {
-                    BalloonRowView(balloon:balloon)
-                    .onAppear {
-                          self.loadData()
-                        }
-                    }
-                }
-            .onAppear {
-                UITableView.appearance().separatorStyle = .none
+        let enumerated = balloonData.enumerated().map({ $0 })
+
+        List(enumerated, id: \.element.name) { index, balloon in
+            NavigationLink(destination: PageView(openAtPage: index, pages: balloonData.map { BalloonDetail(balloonData: $0) })
+            ) {
+                BalloonRowView(balloon:balloon)
             }
-            .navigationBarTitle(Text("Balloons"))
-        
+        .onAppear {
+            UITableView.appearance().separatorStyle = .none
+        }
+        .navigationBarTitle(Text("Balloons"))
+    
+    
+        }
         .onAppear(perform: loadData)
     }
     
